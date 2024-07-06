@@ -1,3 +1,15 @@
+.ga-maamli-regular {
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .lato-regular-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
 *,
 *::after,
 *::before{
@@ -9,7 +21,12 @@
 
 body{
     background-color: #ccc;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
 }
+
+
 
 .firstScreen{
     width: 100%;
@@ -37,7 +54,7 @@ body{
     width: 100%;
     height: 100%;
     display: flex;
-    flex-direction: column; /*не в 1 строчку*/
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
 }
@@ -46,6 +63,9 @@ body{
     font-size: 50px;
     font-weight: bold;
     color: white;
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .firstScreenBody .subTitle{
     font-family: sans-serif;
@@ -54,7 +74,7 @@ body{
     color: white;
 }
 .wrapper{
-    min-width: 990 px;
+    max-width: 990 px;
     margin: 0 auto;
     position: relative;
     z-index: ;
@@ -62,23 +82,26 @@ body{
 }
 
 
-/* .wrapper.p,
+.wrapper.p,
 .wrapperli{
     line-height: 30px ;
     margin-bottom: 15px;
 }
+
+
 .wrapper ul{
     list-style-position: inside;
+    margin: 20px 20px 20px 20px;
 }
 .wrapper{
     min-width: 990 px;
     margin: 0 auto;
-    padding : 10px
+    padding : 15px
 }
 
-fs
+
 .wrapper img{
     width: 100%
     margin-bottom: 25px;
+    margin: 20px 0 20px 0;
 } 
-lightshot an APP*/
